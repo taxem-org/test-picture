@@ -1,0 +1,10 @@
+{
+  "appId": "com.devteste.taxem.org",
+  "appName": "devolutostaxemtest",
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  }
+}
