@@ -17,6 +17,9 @@ const takePicture = async () => {
 
     const exif = image.exif || null
 
+    // Geolocation data should exist here
+    console.log('🚀 geolocation:', exif.GPS ? exif.GPS : (exif.GPSLatitude, exif.GPSLongitude))
+
     handleUpload(image)
 
     async function handleUpload(image) {
